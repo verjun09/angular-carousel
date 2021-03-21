@@ -1,1 +1,141 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  font-family: "Arial";
+}
+
+.content {
+ margin-top: 50px;
+}
+
+.slick-slider {
+  width: 80%;
+  margin: auto;
+}
+
+body .slick-prev,
+body .slick-next {
+  height: 40px;
+  width: 40px;
+  background:#232323 !important;
+  z-index: 100;
+  top: 80% !important;
+  border-radius: 50% !important;
+}
+
+.slick-prev:before {
+  font-family: FontAwesome !important;
+  content: "\f053" !important;
+  margin-left: -5px;
+}
+
+.slick-next:before {
+  font-family: FontAwesome !important;
+  content: "\f054" !important;
+  margin-right: -5px;
+}
+
+.slick-prev {
+  left: 28% !important;
+}
+.slick-next {
+  right: 28% !important;
+}
+
+body .slick-slide:not(.slick-center) {
+  z-index: 0;
+  transform: scale(0.8,0.6);
+}
+
+body .slick-active.slick-center+.slick-slide+.slick-slide {
+  z-index: 1;
+}
+
+.slick-list {
+  padding: 50px 0px !important;
+  height: 480px;
+}
+
+.slick-slide {
+  position: relative;
+  transform: scale(1.4, 1.1);
+  transition: transform .5s;
+  margin-left: 20px !important;
+  margin-right: 20px !important
+}
+
+body .slick-slide:not(.slick-center) .item-carousel{
+  padding-top: 10px;
+  border-style: none;
+}
+
+body .slick-slide:not(.slick-center) .img-placeholder{
+  height:80px !important;
+  width:80px !important;
+}
+
+body .slick-slide:not(.slick-center) img{
+  height:80px !important;
+}
+
+
+body .slick-slide:not(.slick-center) .btn-start{
+  display: none;
+}
+
+body .slick-slide:not(.slick-center) .item-title{
+  font-size: 22px !important;
+  bottom: 60px !important;
+  font-weight: 500 !important;
+}
+
+.item-carousel {
+  position: relative;
+  height:420px;
+  box-sizing: border-box;
+  border: 2px solid rgba(150,150,150,0.08);
+  border-radius: 8px;
+  background: linear-gradient(180deg, #FFFFFF 0%, #EBEBEB 100%);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12);
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
+  border-bottom-color: #FFC000;
+}
+
+.item-title {
+  width: 100%;
+  position: absolute;
+  bottom: 120px;
+  text-align: center;
+  color: #232323;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.btn-start {
+  position: absolute;
+  bottom: 35px;
+  width: 100%;
+  text-align: center;
+  color: #232323;
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 0.1px;
+  line-height: 32px;
+  cursor: pointer;
+}
+
+.img-placeholder {
+  height: 160px;
+  width: 160px;
+  border:1px solid;
+  margin: 40px auto 0 auto;
+}
+
+.img-placeholder img {
+  width: 100%;
+  height: 160px;
+}
+
+.m-left {
+  margin-left: 8px;
+}
