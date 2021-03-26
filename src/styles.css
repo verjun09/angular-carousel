@@ -4,10 +4,6 @@ body {
   background-color: #f5f5f5 !important;
 }
 
-.main-content .container{
-  background-image: url("assets/images/bg.jpg");
-}
-
 .navbar {
   background-color: rgba(255,255,255,0.96);
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.08);
