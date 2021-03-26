@@ -17,7 +17,7 @@ export class CarouselComponent {
     autoWidth: true,
     items: 5,
     nav: true,
-    margin: 2,
+    margin: -10,
     navText: ['', ''],
     responsive: {
       0: {
