@@ -1,7 +1,7 @@
 body {
   font-family: "Arial";
   margin: 0px;
-  background-color: #f6cdcd !important;
+  background-color: #f5f5f5 !important;
 }
 
 .main-content .container{
@@ -16,8 +16,8 @@ body {
 .navbar img{
   position: absolute;
   left: 8%;
-  width: 76px;
-  height: 76px;
+  width: 75px;
+  height: 75px;
   border: 5px solid #fff;
   top: 0;
 }

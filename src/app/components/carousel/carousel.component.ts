@@ -34,7 +34,6 @@ export class CarouselComponent {
       },
       1280: {
         items: 5,
-        stagePadding: 200,
       },
     },
   };
