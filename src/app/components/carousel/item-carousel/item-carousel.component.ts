@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { CarouselModel } from '../../models/CarouselModel';
+import { CarouselModel } from '../../../models/CarouselModel';
 
 @Component({
   selector: 'app-item-carousel',

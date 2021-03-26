@@ -1,4 +1,5 @@
 export interface CarouselModel {
-  url: string;
+  images: string;
   title: string;
+  link: string;
 }

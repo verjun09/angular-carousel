@@ -1,0 +1,12 @@
+<div class="main-content">
+  <div class="container vh-100 pt-5">
+    <owl-carousel-o class="owl-centered " [options]="customOptions" >
+      <ng-container *ngFor="let item of data">
+      <ng-template carouselSlide>
+         <app-item-carousel [item]="item"></app-item-carousel>
+      </ng-template>
+    </ng-container>
+    </owl-carousel-o>
+  </div>
+</div>
+
